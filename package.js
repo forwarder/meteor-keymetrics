@@ -1,11 +1,12 @@
 Package.describe({
   summary: 'Keymetrics connector for Meteor',
-  name: 'forwarder:keymetrics'
+  name: 'forwarder:keymetrics',
+  version: '0.0.1',
 });
 
 Package.onUse(function (api) {
   Npm.depends({
-    'pidusage': '2.0.6',
+    'pidusage': '2.0.7',
     'pmx': '1.6.3'
   })
 
